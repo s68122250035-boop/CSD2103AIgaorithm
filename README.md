@@ -1,13 +1,11 @@
 # Rescue Robot Project
 
-## 1. Why does Java not support multiple class inheritance?
-Java does not support multiple class inheritance because it can cause ambiguity and complexity, especially the diamond problem. This makes the program difficult to maintain and understand.
-
-## 2. Why do we use interface and composition instead?
-We use interfaces to allow a class to implement multiple behaviors. Composition helps combine different components such as Battery, GPS, and ThermalCamera, making the system more flexible and modular.
-
-## 3. How do we solve default method conflicts?
-If multiple interfaces have the same default method, we override the method in the class and specify which implementation to use.
+## 1. Java สืบทอดหลาย class ไม่ได้เพราะอะไร?
+Java ไม่รองรับการสืบทอดคลาสหลายคลาสเนื่องจากอาจทำให้เกิดความกำกวมและความซับซ้อน โดยเฉพาะปัญหาไดมอนด์ ซึ่งทำให้โปรแกรมดูแลรักษาและเข้าใจได้ยาก
+## 2. เราใช้ interfaces + composition แทนอย่างไร?
+ใช้อินเทอร์เฟซเพื่อให้คลาสสามารถใช้ได้หลายอย่าง การประกอบช่วยในการรวมส่วนประกอบต่างๆ เช่น แบตเตอรี่ GPS และกล้องถ่ายภาพความร้อน ทำให้ระบบมีความยืดหยุ่นและเป็นโมดูลมากขึ้น
+## 3. อธิบายการแก้ปัญหา default method ชื่อชนกัน
+เราต้อง override method นั้นเอง เพื่อบอกชัดเจนว่าจะใช้ของใคร หรือจะเขียนใหม่เอง
 
 ## Scenario Test
 The program simulates a rescue robot performing:
